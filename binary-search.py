@@ -15,6 +15,9 @@ def naive_search(given_list, target):
 
 
 # binary search uses the method of divide and rule !
+# the binary search will work on the fact that our list is sorted
+# if yes,it returns the index
+# if no,then it returns "not found"
 def binary_search(given_list, target, low=None, high=None):
     if low is None and high is None:
         low = 0
@@ -57,4 +60,5 @@ if __name__=='__main__':
     bst = end-start
     diff = nst-bst
     print(f"the binary search is {diff} seconds faster than the naive search")
+    
 
