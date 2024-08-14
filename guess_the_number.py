@@ -1,3 +1,7 @@
+"""This code is a simple number guessing game. It starts by asking the user to input a number to set the upper limit of the guessing range. 
+If the input is valid, it generates a random number within that range. The user then repeatedly guesses the number, receiving feedback on whether their guess is too high or too low. 
+This process continues until the user correctly guesses the number, at which point the game congratulates them and displays the total number of attempts made."""
+
 import random
 
 top_of_range = input("Type a number that you want to make the top of the range : ")
