@@ -1,3 +1,8 @@
+"""Vectorized vs Loop Version in Python
+
+This Python script compares the performance of a vectorized operation using NumPy’s np.dot function against a traditional loop-based implementation for computing the dot product of two large arrays. 
+The script generates two random arrays of size 10,000,000 and measures the execution time for both methods, demonstrating the efficiency of vectorized operations over loops in numerical computations."""
+
 import numpy as np
 import time
 def loop_version(a,b):
