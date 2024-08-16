@@ -65,5 +65,5 @@ plt.show()
 yvalue = chord_lengths[50]
 pi_val = yvalue/(2*a)
 print('\nthe approach is that as the number of equal chords increases in a given circle it becomes the circumference of the circle ')
-print("now we can devide the yvalue at number of chords = 50 which lies in the flat area of the curve by twice the radius to get the value of pi ")
+print("now we can devide the yvalue at number of chords = 50 which lies in the flat area of the curve by twice the radius to get the value of pi i.e. the (pi_val = yvalue/(2*a))")
 print(f"\n\nso we can conclude that the value of pi is {pi_val:.2f}")
