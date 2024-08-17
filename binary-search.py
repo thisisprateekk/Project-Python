@@ -49,16 +49,18 @@ if __name__=='__main__':
     for target in sorted_list:
         naive_search(sorted_list, target)
     end = time.time()
-    print("Naive search time: ", (end - start), "seconds")
     nst = end-start
+    print(f"Naive search time: {nst} seconds")
+    
 
     start = time.time()
     for target in sorted_list:
         binary_search(sorted_list, target)
     end = time.time()
-    print("Binary search time: ", (end - start), "seconds")
     bst = end-start
-    diff = nst-bst
+    print(f"Binary search time: {bst} seconds")
+    
+    diff = nst-bst # difference between naive search time and binary search time 
     print(f"the binary search is {diff} seconds faster than the naive search")
     
 
